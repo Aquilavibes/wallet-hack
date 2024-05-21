@@ -6,6 +6,14 @@
     let open4 = document.querySelector('#listing-4')
     let open5 = document.querySelector('#listing-5')
     let open6 = document.querySelector('#listing-6')
+    let open7 = document.querySelector('#listing-7')
+    let open8 = document.querySelector('#listing-8')
+    let open9 = document.querySelector('#listing-9')
+    let open10 = document.querySelector('#listing-10')
+    let open11 = document.querySelector('#listing-11')
+    let open12 = document.querySelector('#listing-12')
+    let open13 = document.querySelector('#listing-13')
+    let open14 = document.querySelector('#listing-14')
     let close = document.querySelector('#close')
     let back = document.querySelector('.backdrop')
     let connect = document.getElementById('connect')
@@ -37,6 +45,41 @@
         modal.style.visibility = 'visible';
         back.style.visibility = 'visible';
      })
+
+     open7.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+
+   open8.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+
+   open9.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+   open10.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+   open11.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+   open12.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+   open13.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
+   open14.addEventListener( 'click',function() {
+      modal.style.visibility = 'visible';
+      back.style.visibility = 'visible';
+   })
 
      close.addEventListener('click', function(){
         modal.style.visibility = 'hidden';
